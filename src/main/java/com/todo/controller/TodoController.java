@@ -12,6 +12,7 @@ import org.springframework.web.bind.annotation.*;
 @RequiredArgsConstructor
 @RestController
 @RequestMapping("/api/public")
+@CrossOrigin(origins="*")
 public class TodoController {
 
     final private Service service;
